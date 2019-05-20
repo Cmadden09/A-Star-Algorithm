@@ -4,6 +4,7 @@
 #include "data.h"
 using namespace data;
 //EDIT_A Brand new branch
+//Edit before merge
 
 class AstarGraph
 {
