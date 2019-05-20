@@ -34,11 +34,7 @@ public:
 				{
 					nodes[i]->addPath(edge_array[j], weights[j]);
 				}
-
 			}
-
-
-
 		}
 	}
 
@@ -54,7 +50,6 @@ public:
 				std::cout << "Weight: " << nodes[i]->weights[j] << std::endl;
 
 			}
-
 		}
 	}
 
@@ -67,8 +62,5 @@ public:
 	std::vector<node*> nodes;
 
 private:
-	int numGraphNodes;
-	
-
-	
+	int numGraphNodes;	
 };

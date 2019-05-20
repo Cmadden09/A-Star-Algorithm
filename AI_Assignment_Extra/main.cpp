@@ -49,8 +49,7 @@ node* lowest(std::vector<node*> nodes, node* goal)
 		{
 			currentLowest = nodes[i];
 			currentLowestCost = nodes[i]->f;
-		}
-		
+		}		
 	}
 
 	return currentLowest;

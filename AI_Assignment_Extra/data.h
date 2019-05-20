@@ -5,6 +5,7 @@
 
 namespace data{
 
+
 // auxiliary types
 struct location
 {
@@ -18,10 +19,7 @@ typedef std::pair<int, int> Vector;
 
 
 
-
-
 //Specify our data:
-
 //The identifier for each node.
 enum nodes {	n0, n1, n2, n3, n4, n5, n6, n7, n8, n9,
 				n10, n11, n12, n13, n14, n15, n16, n17, n18, n19,
@@ -136,6 +134,4 @@ cost weights[] = {
 	33,87,94,54,87,129,33,54,61,21,100,33,75,30,45,45,54,
 	42,54,33,91,120,123,15,33,106,255,390,
 };
-
-
 }
